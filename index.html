@@ -1,1 +1,549 @@
-Portfolio
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Vimal G. Darji - Portfolio</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Vimal G. Darji</h1>
+        <p>Team Leader</p>
+      </div>
+    </header>
+
+    <nav>
+      <div class="container">
+        <ul id="menu">
+          <li>
+            <a href="#" onclick="toggleSection('summary')" id="nav-summary">
+              About Me
+            </a>
+          </li>
+
+          <li>
+            <a href="#" onclick="toggleSection('education')" id="nav-education">
+              Education
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="toggleSection('work-experience')"
+              id="nav-work-experience"
+            >
+              Work Experience
+            </a>
+          </li>
+          <li>
+            <a href="#" onclick="toggleSection('projects')" id="nav-projects">
+              Projects
+            </a>
+          </li>
+          <li>
+            <a href="#" onclick="toggleSection('contact')" id="nav-contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="summary" class="summary">
+      <div class="container">
+        <h2>About Me</h2>
+
+        <p class="summary">
+          A results-driven professional with over 8 years of hands-on experience
+          in software development, I specialize in MEAN stack technologies,
+          which encompass MongoDB, Express.js, Angular, and Node.js, allowing me
+          to develop robust and scalable web applications with a comprehensive
+          and cohesive technology stack.. Proven ability to adapt to new coding
+          conventions, demonstrating proficiency in both independent and team
+          environments. Currently serving as a Team Lead, showcasing strong
+          leadership skills in guiding development teams. Possesses advanced
+          problem-solving, presentation, and communication abilities.
+        </p>
+
+        <h2>My Skills</h2>
+
+        <p class="summary">
+          I always believe in learning new things. This helps me create better
+          and faster solutions. I enjoy staying updated with the latest trends
+          in the industry to provide top-notch results.
+        </p>
+
+        <div class="skills-list summary">
+          <div class="skill-category">
+            <h3>Frontend Skills</h3>
+            <ul>
+              <li>
+                <div class="skill-logo">
+                  <img src="assets/html5.jpg" alt="HTML5 Logo" />
+                  <span class="skill-label">HTML5</span>
+                </div>
+              </li>
+              <li>
+                <div class="skill-logo">
+                  <img src="assets/css3.jpg" alt="CSS3 Logo" />
+                  <span class="skill-label">CSS3</span>
+                </div>
+              </li>
+              <li>
+                <div class="skill-logo">
+                  <img src="assets/JavaScript.png" alt="JavaScript Logo" />
+                  <span class="skill-label">JavaScript</span>
+                </div>
+              </li>
+              <li>
+                <div class="skill-logo">
+                  <img src="assets/typescript.png" alt="Typescript Logo" />
+                  <span class="skill-label">Typescript</span>
+                </div>
+              </li>
+              <li>
+                <div class="skill-logo">
+                  <img src="assets/nodejs.png" alt="NodeJs Logo" />
+                  <span class="skill-label">Node JS</span>
+                </div>
+              </li>
+              <li>
+                <div class="skill-logo">
+                  <img src="assets/angular17.png" alt="Angular Logo" />
+                  <span class="skill-label">Angular</span>
+                </div>
+              </li>
+              <li>
+                <div class="skill-logo">
+                  <img src="assets/java.png" alt="Java Logo" />
+                  <span class="skill-label">Java</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>Backend Skills</h3>
+            <ul>
+              <li>
+                <div class="skill-logo">
+                  <img src="assets/java.png" alt="Java Logo" />
+                  <span class="skill-label">Java</span>
+                </div>
+              </li>
+              <li>
+                <div class="skill-logo">
+                  <img src="assets/mysql.png" alt="MySQL Logo" />
+                  <span class="skill-label">MySQL</span>
+                </div>
+              </li>
+              <li>
+                <div class="skill-logo">
+                  <img src="assets/mongodb.png" alt="MongoDB Logo" />
+                  <span class="skill-label">MongoDB</span>
+                </div>
+              </li>
+              <li>
+                <div class="skill-logo">
+                  <img src="assets/microservice.png" alt="Microservices Logo" />
+                  <span class="skill-label">Microservices</span>
+                </div>
+              </li>
+              <li>
+                <div class="skill-logo">
+                  <img src="assets/websocket.png" alt="websocket Logo" />
+                  <span class="skill-label">Sockets</span>
+                </div>
+              </li>
+              <li>
+                <div class="skill-logo">
+                  <img src="assets/awscloud.png" alt="AWS cloud Logo" />
+                  <span class="skill-label">AWS cloud deployment</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>Other Skills</h3>
+            <ul>
+              <li>
+                <div class="skill-logo">
+                  <img src="assets/restapi.png" alt="REST Logo" />
+                  <span class="skill-label">REST API</span>
+                </div>
+              </li>
+              <li>
+                <div class="skill-logo">
+                  <img src="assets/atlassianjira.png" alt="Jira Logo" />
+                  <span class="skill-label">JIRA</span>
+                </div>
+              </li>
+              <li>
+                <div class="skill-logo">
+                  <img src="assets/azureadb2c.png" alt="Azure Logo" />
+                  <span class="skill-label">Azure AD B2C integration</span>
+                </div>
+              </li>
+              <li>
+                <div class="skill-logo">
+                  <img src="assets/postman.png" alt="Postman Logo" />
+                  <span class="skill-label">API test cases with Postman</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>Soft Skills</h3>
+        <ul class="summary">
+          <li>Problem solving</li>
+          <li>Communication</li>
+          <li>Time management</li>
+          <li>Result oriented</li>
+        </ul>
+
+        <h3>Languages</h3>
+        <ul class="summary">
+          <li>Gujarati</li>
+          <li>Hindi</li>
+          <li>English</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education" class="work-experience">
+      <div class="container">
+        <h2>Education</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="left-content">
+              <div class="year">2015</div>
+              <div class="company">
+                M.C.A. - Shri Jairambhai Patel Institute of Business Management
+                & Computer Application (NICM) (2015) - CPI: 7.28
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="left-content">
+              <div class="year">2012</div>
+              <div class="company">
+                B.C.A. - GLS Institute of Computer Application (Gujarat
+                University) (2012) - Percentage: 66
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work-experience" class="work-experience">
+      <div class="container">
+        <h2>Work Experience</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="left-content">
+              <div class="year">2022 - Present</div>
+              <div class="company">Albiorix Technology Pvt. Ltd.</div>
+            </div>
+            <div class="right-content">
+              <div class="role">Team Leader</div>
+              <p class="responsibility">
+                As a Team Leader, I lead development teams and actively
+                contribute to project success by being hands-on in project
+                tasks.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="left-content">
+              <div class="year">2017 - 2022</div>
+              <div class="company">iFour Technolab Pvt. Ltd.</div>
+            </div>
+            <div class="right-content">
+              <div class="role">Software Developer</div>
+              <p class="responsibility">
+                Software Developer at iFour Technolab Pvt. Ltd. responsible for
+                designing and implementing software solutions.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="left-content">
+              <div class="year">2015 - 2017</div>
+              <div class="company">ACCUTRON INC.</div>
+            </div>
+            <div class="right-content">
+              <div class="role">Java Developer</div>
+              <p class="responsibility">
+                Java Developer at ACCUTRON INC. involved in developing and
+                maintaining Java-based applications.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="left-content">
+              <div class="year">2015</div>
+              <div class="company">Softech Infosys</div>
+            </div>
+            <div class="right-content">
+              <div class="role">Trainee</div>
+              <p class="responsibility">
+                Trainee at Softech Infosys, gaining hands-on experience in
+                software development.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+
+        <div class="project">
+          <h3>Streaming service</h3>
+          <p>
+            The "Streaming Service" project is a dynamic platform designed to
+            offer an immersive entertainment experience similar to Netflix. This
+            innovative streaming service provides users with a vast library of
+            content, including movies, TV shows, documentaries, and more. With a
+            user-friendly interface, personalized recommendations, and seamless
+            streaming capabilities, it aims to deliver high-quality
+            entertainment tailored to individual preferences. Whether users are
+            looking for the latest releases or timeless classics, the Streaming
+            Service ensures a captivating and enjoyable viewing experience
+            anytime, anywhere.
+          </p>
+          <h4>Technologies Used:</h4>
+          <p>MongoDB, Express.js, Angular, Node.js, REST API, AWS Cloud</p>
+          <h4>Role:</h4>
+          <p>Team Lead</p>
+          <!-- <h4>Challenges:</h4>
+          <p>
+            Overcoming scalability challenges during peak usage periods and
+            ensuring smooth integration with third-party content providers.
+          </p>
+          <h4>Outcomes:</h4>
+          <p>
+            Increased user engagement, positive feedback on the personalized
+            recommendation system, and successful handling of high traffic
+            loads.
+          </p> -->
+        </div>
+
+        <div class="project">
+          <h3>Workforce Intelligent Platform</h3>
+          <p>
+            The "Workforce Intelligent Platform" revolutionizes the hiring
+            process by integrating artificial intelligence to identify ideal
+            candidates for employment. This innovative platform streamlines
+            recruitment by leveraging AI algorithms to analyze resumes, assess
+            skills, and match candidates with job requirements. It goes beyond
+            traditional hiring systems, offering intelligent insights into
+            candidate suitability and cultural fit. The Workforce Intelligent
+            Platform enhances decision-making by providing data-driven
+            recommendations, ultimately optimizing the hiring process and
+            ensuring organizations find the best-matched talent efficiently and
+            effectively.
+          </p>
+          <h4>Technologies Used:</h4>
+          <p>MongoDB, Express.js, Angular, Node.js, REST API, AWS Cloud</p>
+          <h4>Role:</h4>
+          <p>Software Developer</p>
+          <!-- <h4>Challenges:</h4>
+          <p>
+            Implementing complex AI algorithms for candidate matching and
+            ensuring seamless integration with existing HR systems.
+          </p>
+          <h4>Outcomes:</h4>
+          <p>
+            Improved hiring efficiency, reduced time-to-fill, and enhanced
+            candidate quality.
+          </p> -->
+        </div>
+
+        <div class="project">
+          <h3>Service Management</h3>
+          <p>
+            The "Service Management" project introduces a dynamic ecosystem by
+            allowing the registration of various service providers. This
+            innovative feature enables a diverse range of service offerings to
+            be accessible to users through a unified platform. Users can
+            seamlessly engage with and utilize different services provided by
+            registered service providers. From on-demand services to specialized
+            offerings, the project enhances user convenience by offering a
+            one-stop solution for accessing a variety of services. This
+            collaborative approach fosters a robust and interconnected service
+            network, ultimately providing users with a versatile and
+            user-friendly experience.
+          </p>
+          <h4>Technologies Used:</h4>
+          <p>MongoDB, Express.js, Angular, Node.js, REST API, AWS Cloud</p>
+          <h4>Role:</h4>
+          <p>Software Developer</p>
+          <!-- <h4>Challenges:</h4>
+          <p>
+            Implementing a scalable microservices architecture, ensuring secure
+            communication between service providers and users, and optimizing
+            service discovery mechanisms.
+          </p>
+          <h4>Outcomes:</h4>
+          <p>
+            Increased service provider registrations, improved user
+            satisfaction, and enhanced platform scalability.
+          </p> -->
+        </div>
+
+        <div class="project">
+          <h3>Coaching Platform</h3>
+          <p>
+            Enabling users to set and manage goals on a daily, weekly,
+            quarterly, and annual basis. This platform goes beyond traditional
+            coaching by facilitating the creation of personalized To-Do goals
+            and sub-tasks. Users can easily assign tasks, track progress, and
+            manage flags for ongoing tasks, ensuring a systematic and organized
+            approach to goal achievement. CoachSync empowers individuals to
+            navigate their coaching journey with clarity, accountability, and
+            measurable progress.
+          </p>
+          <h4>Technologies Used:</h4>
+          <p>MongoDB, Express.js, Angular, Node.js, REST API, AWS Cloud</p>
+          <h4>Role:</h4>
+          <p>Software Developer</p>
+          <!-- <h4>Challenges:</h4>
+          <p>
+            Implementing real-time goal tracking, ensuring data integrity across
+            different user devices, and creating an intuitive user interface for
+            goal management.
+          </p>
+          <h4>Outcomes:</h4>
+          <p>
+            Increased user engagement, positive feedback on the goal tracking
+            features, and improved user satisfaction.
+          </p> -->
+        </div>
+
+        <div class="project">
+          <h3>Contract system</h3>
+          <p>
+            Contract system simplifies collaboration for different roles, like
+            STTP, TTP, HCP and Inspection. It brings them together to share and
+            find important information about contracts. From checking milestones
+            to finding crucial details, Contract system makes managing contracts
+            easy and transparent. Experience a hassle-free way to work on
+            contracts with Contract system
+          </p>
+          <h4>Technologies Used:</h4>
+          <p>MongoDB, Express.js, Angular, Node.js, REST API, AWS Cloud</p>
+          <h4>Role:</h4>
+          <p>Software Developer</p>
+          <!-- <h4>Challenges:</h4>
+          <p>
+            Designing a user-friendly contract management interface, ensuring
+            real-time collaboration, and implementing secure access controls for
+            different user roles.
+          </p>
+          <h4>Outcomes:</h4>
+          <p>
+            Streamlined contract management processes, improved collaboration
+            among different roles, and enhanced transparency in contract
+            workflows.
+          </p> -->
+        </div>
+
+        <div class="project">
+          <h3>Tokenize System</h3>
+          <p>
+            Tokenize System is a groundbreaking municipal project that allocates
+            a budget to offer essential services to eligible residents. This
+            innovative system enables cardholders to participate in activities
+            that might be financially inaccessible without the project. By
+            providing a tokenized approach, the system not only ensures
+            inclusive access but also promotes community engagement and
+            participation, fostering a more connected and empowered local
+            community
+          </p>
+          <h4>Technologies Used:</h4>
+          <p>MongoDB, Express.js, Angular, Node.js, REST API, AWS Cloud</p>
+          <h4>Role:</h4>
+          <p>Software Developer</p>
+          <!-- <h4>Challenges:</h4>
+          <p>
+            Implementing a secure tokenized system, ensuring fair distribution
+            of benefits, and integrating with existing municipal databases.
+          </p>
+          <h4>Outcomes:</h4>
+          <p>
+            Increased accessibility to essential services, positive community
+            feedback, and improved efficiency in resource allocation.
+          </p> -->
+        </div>
+
+        <div class="project">
+          <h3>FAIR Data PHT</h3>
+          <p>
+            FAIR Data PHT is a pioneering project conducted by the Care
+            Netherlands Institute, focusing on the practical application of FAIR
+            data principles. This initiative involves a comprehensive analysis
+            to assess the impact of healthcare in the Netherlands. By embracing
+            Findable, Accessible, Interoperable, and Reusable (FAIR) data
+            practices, the project aims to enhance transparency, accessibility,
+            and the overall effectiveness of healthcare data. FAIR Data PHT
+            represents a crucial step towards advancing healthcare insights and
+            promoting data-driven decision-making in the Netherlands.
+          </p>
+          <h4>Technologies Used:</h4>
+          <p>Java, Angular, Docker, MySQL</p>
+          <h4>Role:</h4>
+          <p>Software Developer</p>
+          <!-- <h4>Challenges:</h4>
+          <p>
+            Implementing FAIR data principles in healthcare datasets, ensuring
+            data privacy compliance, and conducting meaningful analysis for
+            healthcare insights.
+          </p>
+          <h4>Outcomes:</h4>
+          <p>
+            Improved accessibility and usability of healthcare data, enhanced
+            data-driven decision-making, and contributions to healthcare
+            research.
+          </p> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Information</h2>
+        <div class="summary">
+          <p>Email: vimaldarjiv26@gmail.com</p>
+          <p>Address: Gandhinagar – 382421</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Vimal G. Darji. All rights reserved.</p>
+        <!-- <nav>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
+        </nav> -->
+      </div>
+    </footer>
+  </body>
+</html>
