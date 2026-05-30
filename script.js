@@ -189,7 +189,7 @@ function handleContactFormSubmission() {
             
             // Format a neat WhatsApp pre-filled text
             const whatsappText = `Hi Vimal, I am trying to contact you from your portfolio website.\n\n*Name:* ${name}\n*Email:* ${email}\n*Subject:* ${subject}\n\n*Message:* ${message}`;
-            const whatsappUrl = `https://wa.me/911234567890?text=${encodeURIComponent(whatsappText)}`;
+            const whatsappUrl = `https://wa.me/919033656154?text=${encodeURIComponent(whatsappText)}`;
             
             setTimeout(() => {
                 window.open(whatsappUrl, '_blank');
